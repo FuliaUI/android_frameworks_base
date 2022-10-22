@@ -183,7 +183,7 @@ public class CompassTile extends QSTileImpl<BooleanState> implements SensorEvent
 
     @Override
     public boolean isAvailable() {
-        return YaapUtils.deviceHasCompass(mContext);
+        return FuliaUIUtils.deviceHasCompass(mContext);
     }
 
     @Override
